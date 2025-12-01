@@ -1,6 +1,6 @@
 # Single-Page CV — index.html
 
-Project URL - https://github.com/AFKjr/roadmap.sh-projects/tree/main/Single-Page-CV
+Project URL - https://roadmap.sh/projects/single-page-cv
 
 Overview
 --------
