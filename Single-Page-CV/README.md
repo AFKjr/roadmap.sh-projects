@@ -4,7 +4,7 @@ Project URL - https://github.com/AFKjr/roadmap.sh-projects/tree/main/Single-Page
 
 Overview
 --------
-This is a compact, single-file Curriculum Vitae (CV) built as a static HTML page. The core file is `index.html` and it contains basic meta tags, a favicon reference, and the CV markup (name, contact, skills, education, experience and links).
+This is a compact, single-file Curriculum Vitae (CV) built as a static HTML page. The core file is `index.html`, and it contains basic meta tags, a favicon reference, and the CV markup (name, contact, skills, education, experience and links).
 
 Purpose
 -------
