@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Basic HTML Website</title>
+    <meta name="description" content="Contact page for reaching out to Afkjr">
+    <meta name="keywords" content="Contact, Email, Message, Basic HTML Website">
+    <meta name="author" content="Afkjr">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Contact - Basic HTML Website">
+    <meta property="og:description" content="Contact page for reaching out to Afkjr">
+    <meta property="og:type" content="website">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Me</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="mailto:" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Afkjr. All rights reserved.</p>
+    </footer>
+</body>
+</html>
