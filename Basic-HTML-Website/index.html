@@ -10,13 +10,13 @@
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Basic HTML Website for roadmap.sh">
     <meta property="og:description" content="A sample HTML website structure with multiple pages">
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="home-styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Frontend Developer</h1>
-        <nav>
+        <h1 class="main-header">Frontend Developer</h1>
+        <nav class="nav-links">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -26,34 +26,37 @@
         </nav>
     </header>
 
-    <hr>
+    <hr class="solid-line">
 
     <main>
         <section>
-            <table>
-                <tr>
-                    <th>Projects</th>
-                    <th>Work Experience</th>
-                    <th>Education</th>
-                </tr>
-                <tr>
+            <table class="table">
+                <thead class="main-table-headers">
+                    <tr class="table-headers-names">
+                        <th class="left-align-header">Projects</th>
+                        <th class="center-align-header">Work Experience</th>
+                        <th class="right-align-header">Education</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr class="row-one">
                     <td>HTML Only Portfolio<br>Calculator<br>Quiz App<br>Countdown Timer<br>Product Upcoming Page</td>
                     <td>
                         <h3>roadmap.sh</h3>
                         <p>Solved all the frontend projects</p>
                         <a href="https://roadmap.sh">Visit roadmap.sh</a>
                     
-                        <h3>OpenSource Work</h3>
+                        <h3><br>OpenSource Work</h3>
                         <p>Contributed to 50 OpenSource projects. My own projects have over 50 stars</p>
                         <a href = "https://github.com/Afkjr">Visit my GitHub</a>
                     </td>
-                    <td>
+                    <td class="row-two">
                         <ul>
                             <li>Graduated with a 3.76 out of 4.0 GPA</li>
                             <li>Won Acem Hackathon Award</li>
                             <li>Organized local developer meetups</li>
                         </ul>
-                        <p>Courses I took:</p><br>
+                        <br><p>Courses I took:</p><br>
                         <ul>
                             <li>Data Structures and Algorithms</li>
                             <li>Web Development</li>
@@ -65,7 +68,7 @@
             </table>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025 Afkjr. All rights reserved.</p>
     </footer>
 </body>
